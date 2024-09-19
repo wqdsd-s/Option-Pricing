@@ -89,7 +89,6 @@ plt.plot([20,40,80,100,200,500],price1,label='b')
 plt.xlabel("n")
 plt.ylabel("Price")
 plt.legend()
-#plt.savefig(r'C:\\Users\\alex\\Desktop\\UCLAcompu\\1.png')
 plt.show()
 
 
@@ -137,7 +136,6 @@ for S0 in range(170,192,2):
 plt.plot(range(170,192,2),delta_list1)      
 plt.xlabel("S0")
 plt.ylabel("delta")
-#plt.savefig(r'C:\\Users\\alex\\Desktop\\UCLAcompu\\3.png')
 plt.show()
 
 
@@ -156,7 +154,6 @@ for t in np.arange(0,0.183,0.003):
 plt.plot(np.arange(0,0.183,0.003),delta_list2)      
 plt.xlabel("t")
 plt.ylabel("delta")
-#plt.savefig(r'C:\\Users\\alex\\Desktop\\UCLAcompu\\4.png')
 plt.show()
 
 
@@ -178,7 +175,6 @@ for t in np.arange(0,0.183,0.003):
 plt.plot(np.arange(0,0.183,0.003),theta_list)      
 plt.xlabel("t")
 plt.ylabel("theta")
-#plt.savefig(r'C:\\Users\\alex\\Desktop\\UCLAcompu\\5.png')
 plt.show()
 
 
@@ -200,7 +196,6 @@ for S0 in range(170,192,2):
 plt.plot(range(170,192,2),vega_list)      
 plt.xlabel("S0")
 plt.ylabel("vega")
-#plt.savefig(r'C:\\Users\\alex\\Desktop\\UCLAcompu\\6.png')
 plt.show()
 
 
@@ -253,7 +248,6 @@ for n in [20, 40, 70, 80, 100, 200, 500]:
 plt.plot([20, 40, 70, 80, 100, 200, 500],price3)      
 plt.xlabel("n")
 plt.ylabel("Price")
-#plt.savefig(r'C:\\Users\\alex\\Desktop\\UCLAcompu\\7.png')
 plt.show()
 
 
@@ -306,7 +300,6 @@ for n in [20, 40, 70, 80, 100, 200, 500]:
 plt.plot([20, 40, 70, 80, 100, 200, 500],price4)      
 plt.xlabel("n")
 plt.ylabel("Price")
-#plt.savefig(r'C:\\Users\\alex\\Desktop\\UCLAcompu\\8.png')
 plt.show()
 
 
@@ -668,7 +661,6 @@ plt.plot(range(170,191,1),[Ame_Put_Tri_b(t,r,sigma,S0,K,250) for S0 in range(170
 plt.xlabel("S0")
 plt.ylabel("Price")
 plt.legend()
-plt.savefig(r'C:\\Users\\alex\\Desktop\\UCLAcompu\\10.png')
 plt.show()
 
 
@@ -684,7 +676,6 @@ for delta_X_multiplier in [1,3,4]:
 plt.xlabel("S0")
 plt.ylabel("Price")
 plt.legend()
-plt.savefig(r'C:\\Users\\alex\\Desktop\\UCLAcompu\\11.png')
 plt.show()
 
 
@@ -817,28 +808,24 @@ plt.plot(range(170,191,1),list3,label='CNFD')
 plt.xlabel("S0")
 plt.ylabel("Price")
 plt.legend()
-#plt.savefig(r'C:\\Users\\alex\\Desktop\\UCLAcompu\\12.png')
 plt.show()
 
 plt.plot(range(170,191,1),list1,label='EFD')     
 plt.xlabel("S0")
 plt.ylabel("Price")
 plt.legend()
-#plt.savefig(r'C:\\Users\\alex\\Desktop\\UCLAcompu\\13.png')
 plt.show()
 
 plt.plot(range(170,191,1),list2,label='IFD')
 plt.xlabel("S0")
 plt.ylabel("Price")
 plt.legend()
-#plt.savefig(r'C:\\Users\\alex\\Desktop\\UCLAcompu\\14.png')
 plt.show()
 
 plt.plot(range(170,191,1),list3,label='CNFD')
 plt.xlabel("S0")
 plt.ylabel("Price")
 plt.legend()
-#plt.savefig(r'C:\\Users\\alex\\Desktop\\UCLAcompu\\15.png')
 plt.show()
 
 
