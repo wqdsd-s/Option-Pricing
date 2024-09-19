@@ -69,7 +69,6 @@ for l in np.linspace(0.05,0.4,8):
 plt.plot(np.linspace(0.05,0.4,8),price1)
 plt.xlabel("lambda1")
 plt.ylabel("Price")
-#plt.savefig(r'C:\\Users\\alex\\Desktop\\UCLAcompu\\99.png')
 plt.show()
 
 
@@ -132,7 +131,6 @@ for l in np.linspace(0.05,0.4,8):
 plt.plot(np.linspace(0.05,0.4,8),dp)
 plt.xlabel("lambda1")
 plt.ylabel("default probability")
-#plt.savefig(r'C:\\Users\\alex\\Desktop\\UCLAcompu\\99.25.png')
 plt.show()
 
 
@@ -195,7 +193,6 @@ for l in np.linspace(0.05,0.4,8):
 plt.plot(np.linspace(0.05,0.4,8),tau1)
 plt.xlabel("lambda1")
 plt.ylabel("tau")
-#plt.savefig(r'C:\\Users\\alex\\Desktop\\UCLAcompu\\99.5.png')
 plt.show()
 
 
@@ -387,7 +384,6 @@ for rho in np.linspace(-0.7,0.7,15):
 plt.plot(np.linspace(-0.7,0.7,15),price4)
 plt.xlabel("rho")
 plt.ylabel("Price")
-#plt.savefig(r'C:\\Users\\alex\\Desktop\\UCLAcompu\\100.png')
 plt.show()
 
 
@@ -424,7 +420,6 @@ for rb in np.linspace(0.04,0.1,7):
 plt.plot(np.linspace(0.04,0.1,7),price5)
 plt.xlabel("rbar")
 plt.ylabel("Price")
-#plt.savefig(r'C:\\Users\\alex\\Desktop\\UCLAcompu\\105.png')
 plt.show()
 
 #5.(b)
